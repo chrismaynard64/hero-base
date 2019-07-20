@@ -1,0 +1,9 @@
+<div>
+<div *ngIf="heroes$">
+<div *ngFor="let hero of heroes$ | async" class="hero">
+    {{hero.name}}
+</div>
+
+</div>
+
+</div>
